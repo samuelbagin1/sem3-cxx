@@ -1,1 +1,0 @@
-CMakeLists.txt not found in /Users/samuelbagin/Desktop/prac. plocha/school/C++ Select CMakeLists.txt
