@@ -1,5 +1,5 @@
 /*
-Meno a priezvisko:
+Meno a priezvisko: Samuel Bagin
 
 POKYNY:
 (1)  Implementujte funkcie tak, aby splnali popis pri ich deklaraciach.
