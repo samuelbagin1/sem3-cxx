@@ -21,8 +21,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13fc2b99-98bf-4282-b845-42e1090dbea9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/explained.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1728653979051</updated>
       <workItem from="1728653980510" duration="7260000" />
-      <workItem from="1728663110578" duration="7952000" />
+      <workItem from="1728663110578" duration="8569000" />
     </task>
     <task id="LOCAL-00001" summary="done cvic3">
       <option name="closed" value="true" />
@@ -107,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728684966898</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="explained cvic3">
+      <option name="closed" value="true" />
+      <created>1728686305580</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728686305580</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +127,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="done cvic3" />
-    <option name="LAST_COMMIT_MESSAGE" value="done cvic3" />
+    <MESSAGE value="explained cvic3" />
+    <option name="LAST_COMMIT_MESSAGE" value="explained cvic3" />
   </component>
 </project>
