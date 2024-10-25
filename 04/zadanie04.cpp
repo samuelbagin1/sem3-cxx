@@ -157,8 +157,6 @@ void bubbleSort(Weight *data, const size_t length) {
         data: (10, 20, 1000, 30, 2000, 40, 5000, 50, 60, 70), low: 2, high: 7 -> return 4
         data: (10, 20, 5000, 30, 1000, 40, 2000, 50, 60, 70), low: 2, high: 7 -> return 6
 
-        data: (10, 20, 1000, 30, 40, 2000, 50, 5000, 60, 70), low: 2, high: 8 -> return 5
-
         data: (10, 20, 1000, 2000, 30, 40, 50),               low: 2, high: 4 -> return 3
         data: (10, 20, 2000, 1000, 30, 40, 50),               low: 2, high: 4 -> return 3
 
