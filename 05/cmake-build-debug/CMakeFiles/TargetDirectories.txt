@@ -1,0 +1,3 @@
+/Users/samuelbagin/Desktop/prac. plocha/school/C++/05/cmake-build-debug/CMakeFiles/05.dir
+/Users/samuelbagin/Desktop/prac. plocha/school/C++/05/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/samuelbagin/Desktop/prac. plocha/school/C++/05/cmake-build-debug/CMakeFiles/rebuild_cache.dir
