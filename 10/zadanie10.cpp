@@ -19,17 +19,13 @@ POKYNY:
 
 
 #include <iostream>
-#include <iomanip>
-#include <cassert>
 #include <list>
 #include <map>
 #include <queue>
 #include <stack>
 #include <set>
 #include <deque>
-#include <algorithm>
 #include <limits>
-#include <queue>
 #include <vector>
 #include <cctype> // For std::isupper
 
@@ -68,7 +64,7 @@ class Number {
 private:
     int number;
 public:
-    Number(int value) : number(value){
+    Number (int value) : number(value){
     }
 
     int getValue() const {
@@ -291,19 +287,23 @@ list<char> depthFirstSearchUpperCases(const Tree *tree) {
     list<char> result;
     if(!tree || !tree->root) { return result; }
 
-    stack<Node *> stack;
-    stack.push(tree->root);
+    stack<Node *> stackNode;
+    stackNode.push(tree->root);
 
-    while(!stack.empty()){
-        Node *current = stack.top();
-        stack.pop();
 
+    // budeme listovat pokial nebude stack prazdny
+    while(!stackNode.empty()){
+        Node *current = stackNode.top();
+        stackNode.pop();
+
+        // ak je upper pridame do stacku
         if(std::isupper(current->value)){
             result.push_back(current->value);
         }
 
+        // ak bude lsit v navrchu stacku prazdny, nebudeme loopovat
         for(Node *child : current->children) {
-            stack.push(child);
+            stackNode.push(child);
         }
     }
 
@@ -334,7 +334,7 @@ list<char> depthFirstSearchUpperCases(const Tree *tree) {
 
 list<char> breadthFirstSearchUpperCases(const Tree *tree) {
     // If the tree is empty, return an empty list
-    if (tree == nullptr || tree->root == nullptr) {
+    if (!tree || !tree->root) {
         return list<char>();
     }
 
